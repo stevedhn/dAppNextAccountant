@@ -1,0 +1,10 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any custom CSS *after* the @tailwind directives */
+/*  You can keep some global styles here if needed, but try to use Tailwind classes */
+body {
+    @apply bg-gray-100 font-sans;
+}
